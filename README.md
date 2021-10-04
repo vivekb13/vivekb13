@@ -1,0 +1,48 @@
+{
+  "name": "kerala-map",
+  "version": "1.0.0",
+  "private": true,
+  "dependencies": {
+    "@mapbox/mapbox-gl-draw": "git+https://github.com/saanuregh/mapbox-gl-draw.git",
+    "@urbica/react-map-gl": "^1.14.1",
+    "axios": "^0.20.0",
+    "geobuf": "^3.0.2",
+    "mapbox-gl": "^1.12.0",
+    "pbf": "^3.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-feather": "^2.0.8",
+    "react-hook-form": "^6.4.1",
+    "register-service-worker": "^1.7.1"
+  },
+  "scripts": {
+    "build": "poi --prod",
+    "dev": "poi --serve",
+    "start": "serve -s dist"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@poi/plugin-pwa": "^12.0.3",
+    "@poi/plugin-typescript": "^12.3.1",
+    "@types/mapbox-gl": "^1.11.2",
+    "@types/node": "^14.6.0",
+    "@types/react": "^16.9.46",
+    "@types/react-dom": "^16.9.8",
+    "autoprefixer": "^9.8.6",
+    "cssnano": "^4.1.10",
+    "poi": "^12.10.2",
+    "tailwindcss": "^1.7.3",
+    "typescript": "^4.0.2"
+  }
+}
